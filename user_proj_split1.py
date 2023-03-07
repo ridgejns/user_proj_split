@@ -1,8 +1,8 @@
 '''
-Descripttion: 人员参与项目情况表拆分2，每天参与的项目在同一条记录
+Descripttion: 人员参与项目情况表拆分1，每人每天每一个项目产生一条记录
 Author: RidgeJns, ridgejns@outlook.com
 Date: 2023-03-07 14:07:47
-LastEditTime: 2023-03-07 17:50:17
+LastEditTime: 2023-03-07 18:10:22
 Copyright: (c) RidgeJns
 '''
 import pandas as pd
