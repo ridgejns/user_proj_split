@@ -2,15 +2,15 @@
 Descripttion: 人员参与项目情况表拆分1，每人每天每一个项目产生一条记录
 Author: RidgeJns, ridgejns@outlook.com
 Date: 2023-03-07 14:07:47
-LastEditTime: 2023-03-07 18:10:22
+LastEditTime: 2023-03-07 18:11:29
 Copyright: (c) RidgeJns
 '''
 import pandas as pd
 
 # 开始/结束时间
 start_date = pd.Timestamp(2023, 2, 6)
-end_date = pd.Timestamp(2023, 2, 10)
-input_file_path = '【02】2023大数据应用交付部-人员变更情况跟踪表.xlsx'
+end_date = pd.Timestamp(2023, 3, 3)
+input_file_path = '【03】2023大数据应用交付部-人员变更情况跟踪表 .xlsx'
 
 df = pd.read_excel(input_file_path, sheet_name='参与项目情况')
 
